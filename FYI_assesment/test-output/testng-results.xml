@@ -11,12 +11,12 @@
       <![CDATA[Selected Emoji crying cat sad tear is Visible]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-06-30T13:39:14 GST" name="Suite" finished-at="2023-06-30T13:39:20 GST" duration-ms="5185">
+  <suite started-at="2023-06-30T15:13:02 GST" name="Suite" finished-at="2023-06-30T15:13:07 GST" duration-ms="5203">
     <groups>
     </groups>
-    <test started-at="2023-06-30T13:39:14 GST" name="SerachAndSelectAllSmilies" finished-at="2023-06-30T13:39:20 GST" duration-ms="5185">
+    <test started-at="2023-06-30T15:13:02 GST" name="SerachAndSelectAllSmilies" finished-at="2023-06-30T15:13:07 GST" duration-ms="5203">
       <class name="TestCases.Select_Smily">
-        <test-method signature="SearchandSelectAllSmilies(org.testng.ITestContext)[pri:0, instance:TestCases.Select_Smily@7c24b813]" started-at="2023-06-30T13:39:14 GST" name="SearchandSelectAllSmilies" finished-at="2023-06-30T13:39:20 GST" duration-ms="5118" status="PASS">
+        <test-method signature="SearchandSelectAllSmilies(org.testng.ITestContext)[pri:0, instance:TestCases.Select_Smily@7c24b813]" started-at="2023-06-30T15:13:02 GST" name="SearchandSelectAllSmilies" finished-at="2023-06-30T15:13:07 GST" duration-ms="5136" status="PASS">
           <params>
             <param index="0">
               <value>
