@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Selected Emoji crying face sad tear is Visible]]>
+    </line>
+    <line>
+      <![CDATA[Selected Emoji loudly crying face sad cry bawling is Visible]]>
+    </line>
+    <line>
+      <![CDATA[Selected Emoji crying cat sad tear is Visible]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-30T13:39:14 GST" name="Suite" finished-at="2023-06-30T13:39:20 GST" duration-ms="5185">
+    <groups>
+    </groups>
+    <test started-at="2023-06-30T13:39:14 GST" name="SerachAndSelectAllSmilies" finished-at="2023-06-30T13:39:20 GST" duration-ms="5185">
+      <class name="TestCases.Select_Smily">
+        <test-method signature="SearchandSelectAllSmilies(org.testng.ITestContext)[pri:0, instance:TestCases.Select_Smily@7c24b813]" started-at="2023-06-30T13:39:14 GST" name="SearchandSelectAllSmilies" finished-at="2023-06-30T13:39:20 GST" duration-ms="5118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@458342d3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Selected Emoji crying face sad tear is Visible]]>
+            </line>
+            <line>
+              <![CDATA[Selected Emoji loudly crying face sad cry bawling is Visible]]>
+            </line>
+            <line>
+              <![CDATA[Selected Emoji crying cat sad tear is Visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SearchandSelectAllSmilies -->
+      </class> <!-- TestCases.Select_Smily -->
+    </test> <!-- SerachAndSelectAllSmilies -->
+  </suite> <!-- Suite -->
+</testng-results>

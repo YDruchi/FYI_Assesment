@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<listeners>
+	<listener class-name="TestListners.SuiteListner"/>
+</listeners>
+<parameter name="AppPath" value="/Users/ruchidwivedi/git/build-EmojiPicker-Qt_6_5_1_for_macOS-Debug/appEmojiSelector.app"/> 
+  
+  <test name="SerachAndSelectAllSmilies">
+  <parameter name="EmojiCriteria" value="cry"/> 
+    <classes>
+      <class name="TestCases.Select_Smily"/>
+    </classes>
+  </test> <!-- Test -->
+
+</suite> <!-- Suite -->

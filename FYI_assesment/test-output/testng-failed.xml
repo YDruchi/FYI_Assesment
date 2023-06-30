@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="AppPath" value="/Users/ruchidwivedi/git/build-EmojiPicker-Qt_6_5_1_for_macOS-Debug/appEmojiSelector.app"/>
+  <listeners>
+    <listener class-name="TestListners.SuiteListner"/>
+  </listeners>
+  <test thread-count="5" name="SerachAndSelectAllSmilies(failed)">
+    <parameter name="EmojiCriteria" value="cry"/>
+    <classes>
+      <class name="TestCases.Select_Smily">
+        <methods>
+          <include name="SearchandSelectAllSmilies" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestCases.Select_Smily -->
+    </classes>
+  </test> <!-- SerachAndSelectAllSmilies(failed) -->
+</suite> <!-- Failed suite [Suite] -->
