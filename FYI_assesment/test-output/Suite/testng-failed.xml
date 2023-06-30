@@ -6,7 +6,7 @@
     <listener class-name="TestListners.SuiteListner"/>
   </listeners>
   <test thread-count="5" name="SerachAndSelectAllSmilies(failed)">
-    <parameter name="EmojiCriteria" value="cry"/>
+    <parameter name="EmojiCriteria" value="halloween"/>
     <classes>
       <class name="TestCases.Select_Smily">
         <methods>

@@ -14,6 +14,7 @@ import FrameworkUtilities.PublicSharedVariables;
 import TestData.TestData;
 import TestSupportutilities.ActionManager;
 import TestSupportutilities.GetEmoji;
+import TestSupportutilities.SelectCategories;
 import TestSupportutilities.SelectedEmoji;
 
 public class Select_Smily {
@@ -38,6 +39,7 @@ public class Select_Smily {
 		  for ( String Key : PublicSharedVariables.EmojisToTest.keySet()) {
 			if (PublicSharedVariables.EmojisToTest.get(Key).size()!=0)
 			{
+				new SelectCategories().SelectCategory(GetEmojiNameFromFileName.GetCategoryName(Key));
 				for (String EmojiName : PublicSharedVariables.EmojisToTest.get(Key)) {
 					EmojitobeSlectedFileName=Key+"/"+EmojiName;
 					EmojitoClick=new GetEmoji(EmojitobeSlectedFileName).GetEmojiPattern(PublicSharedVariables.MainWindow_EmojiSelector);

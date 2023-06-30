@@ -6,7 +6,7 @@
 <parameter name="AppPath" value="/Users/ruchidwivedi/git/build-EmojiPicker-Qt_6_5_1_for_macOS-Debug/appEmojiSelector.app"/> 
   
   <test name="SerachAndSelectAllSmilies">
-  <parameter name="EmojiCriteria" value="cry"/> 
+  <parameter name="EmojiCriteria" value="halloween"/> 
     <classes>
       <class name="TestCases.Select_Smily"/>
     </classes>

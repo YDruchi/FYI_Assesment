@@ -14,5 +14,6 @@ public class PublicSharedVariables {
 	public static String AppPath;
 	public static List<XmlTest> AllTests;
 	public static final String ImageBasePath=Paths.get("").toAbsolutePath().toString()+"/src/main/resources/Images/";
+	public static final String CategoryBasepath=ImageBasePath+"Categories/";
 	public static HashMap<String, List<String>> EmojisToTest=new HashMap<String, List<String>>();
 }
