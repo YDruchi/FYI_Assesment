@@ -26,7 +26,7 @@ public class Select_Smily {
 		  String SerachCritearia= TestData.getAllData(test.getName()).get("EmojiCriteria");
 		  ActionManager.TypeTextbox("TextBox_SerachEmoji.png", SerachCritearia);
 		  
-		 
+		 //test
 		  
 		  final File folder = new File(PublicSharedVariables.ImageBasePath);
 		  new GetEmojiFileNames().listFilesForFolder(folder,SerachCritearia);
