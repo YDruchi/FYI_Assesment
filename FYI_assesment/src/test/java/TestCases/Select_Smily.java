@@ -22,7 +22,7 @@ public class Select_Smily {
 	@Test
 	public void SearchandSelectAllSmilies(ITestContext test) throws InterruptedException
 	{
-		
+		system.out.println("hi");
 		  String SerachCritearia= TestData.getAllData(test.getName()).get("EmojiCriteria");
 		  ActionManager.TypeTextbox("TextBox_SerachEmoji.png", SerachCritearia);
 		  
